@@ -19,3 +19,8 @@ Q:3) What are arrow functions in ES6?
 arrow function is a shorter way to write function
 
 let arrowFunction=(paramitter)=>funtionality
+
+Q:4) How does destructuring assignment work in ES6?
+ desturcturing assignment allows to extract element from an array and store them in a separate variable.
+
+ 
