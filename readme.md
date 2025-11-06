@@ -23,4 +23,6 @@ let arrowFunction=(paramitter)=>funtionality
 Q:4) How does destructuring assignment work in ES6?
  desturcturing assignment allows to extract element from an array and store them in a separate variable.
 
- 
+ Q:5) Explain template literals in ES6. How are they different from string concatenation?
+using template literals you can write variable ,expression and multi-line text in a single line using ``.
+To write  expression ${}
