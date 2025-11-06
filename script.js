@@ -1,4 +1,4 @@
-// 
+
 
 loadCatagories=()=>{
     const url='https://openapi.programming-hero.com/api/categories'
@@ -76,7 +76,7 @@ clickedCard.classList.add("cat-btn")
 const catagories_types=(type)=>{
      
     const card_container=document.getElementById('tree-container')
-    // console.log(card_container)
+    
     card_container.innerHTML=''
     
     type.forEach(element1=>{
@@ -195,13 +195,12 @@ document.getElementById("card-box").classList.remove("hidden")
 
 addCart=(event,btn)=>{
   event.stopPropagation()
-  // console.log(btn)
+  
   const cardTitle=btn.parentNode.parentNode.children[1].children[0]
   const treePrice=btn.parentNode.children[2].children[1]
-  // console.log(treePrice.innerText)
+  
 const cartContainer=document.getElementById('cart-box')
-// const cardIndex=btn.parentNode.parentNode
-// console.log(cardIndex)
+
 
  newCart=document.createElement('div')
 newCart.innerHTML=`
@@ -226,7 +225,7 @@ cartContainer.append(newCart)
 const totalPrice=document.getElementById('total-price')
 
 const finalPrice=Number(totalPrice.innerText) + Number(treePrice.innerText)
-// console.log(Number(finalPrice))
+
 totalPrice.innerText=Number(finalPrice)
 }
 
@@ -240,7 +239,7 @@ cartdiv.classList.add('hidden')
 
 const finalPrice=Number(totalPrice.innerText) - Number(cartPrice)
 totalPrice.innerText=Number(finalPrice)
-console.log(finalPrice)
+
 }
 
 
